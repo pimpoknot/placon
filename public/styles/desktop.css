@@ -1,24 +1,16 @@
 @import url("https://use.typekit.net/aro1pci.css");
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;1,100&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  font-family: adobe-caslon-pro, serif;
-  font-weight: lighter;
-  color: #707070;
-  ;
-}
+@media(min-width:720px){
 
 /* MENU */
 .menu{
   display: flex;
   justify-content: center;
-  background-color: #BB5918;
   width: 100%;
   height: 150px;
-  border-bottom: solid 15px #E27B32;
+  min-width: 1231px;
+  
 }
 
 .logoMenu img{
@@ -32,10 +24,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/images/Component\ 1\ –\ 1.svg");
+  background-image: url("../../public/images/Component\ 1\ –\ 1.svg");
   background-image: no-repeat;
   width: 100%;
   height: 570px;
+  min-width: 1231px;
 }
 
 .royalVille-container p{
@@ -49,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/splash.svg");
+  background-image: url("../../public/images/splash.svg");
   width: 509px;
   height: 390px;
   
@@ -87,8 +80,13 @@
   text-decoration: none;
 }
 
-.fachada-container img{
-  width: 99%;
+.fachada-container{
+  border: solid 1px red;
+  width: 450px;
+  height: 100%;
+  background-image: url("../images/fachada.svg");
+  background-image: no-repeat;
+  image-resolution: 50%;
   
 }
 
@@ -100,6 +98,7 @@ footer{
   height: 120px;
   background-color: #101010;
   border-top: solid 15px #E27B32;
+  min-width: 1231px;
 }
 
 footer p{
@@ -133,4 +132,5 @@ footer .button{
 
 .phone-container p, .address-container p{
   margin-left: 8px;
+}
 }
