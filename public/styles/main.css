@@ -8,6 +8,11 @@
     box-sizing: border-box;
   }
 
+  .email-container img{
+    width: 27px;
+    height: 27px;
+  }
+
 
 
 .menu{
