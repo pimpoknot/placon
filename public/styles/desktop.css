@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/aro1pci.css");
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;1,100&display=swap');
 
-@media(min-width:720px){
+@media(min-width:500px){
 
 /* MENU */
 .menu{
@@ -21,14 +21,19 @@
 
  /* CONTAINER */
 .container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../../public/images/Component\ 1\ –\ 1.svg");
-  background-image: no-repeat;
   width: 100%;
   height: 570px;
   min-width: 1231px;
+  background-image: url("../../public/images/Component\ 1\ –\ 1.svg");
+}
+
+.container-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  
 }
 
 .royalVille-container p{
@@ -81,7 +86,6 @@
 }
 
 .fachada-container{
-  border: solid 1px red;
   width: 450px;
   height: 100%;
   background-image: url("../images/fachada.svg");
@@ -116,6 +120,12 @@ footer .button{
   background-color: #BB5913;
   width: 232px;
   height: 25px;
+}
+
+.email-container a{ 
+  text-decoration: none;
+  color: #D2D2D2;
+  margin-left: 16px;
 }
 
 .button a{
