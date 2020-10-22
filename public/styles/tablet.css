@@ -1,7 +1,4 @@
-@media(max-width: 767px) {
-
-  
-  
+@media(min-width:768px) and (max-width:992px){
   .logoMenu{
     display: flex;
     justify-content: center;
@@ -155,12 +152,9 @@
     text-align: center;
     font-size: 0.8rem;
     margin-top: 8px;
-    margin-left: 4px;
+    margin-left: 8px;
   }
 
-  .address-container img{
-    margin-bottom: 16px;
-  }
 
   .email-container a{ 
     margin-left: 8px;
@@ -168,5 +162,4 @@
     color: #D2D2D2;
     margin-top: 8px;
   }
-  
 }
